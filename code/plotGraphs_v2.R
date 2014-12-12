@@ -9,8 +9,8 @@ plotGraphs_v2 <-function(a, filename, machine, year,cutoff){
   
   
   title = paste('Top50 on ',machine,' during ',year,': freq>',cutoff,sep='');
-  xlabel = 'software'#names(a)[1]
-  ylabel = 'freq'#names(a)[2]
+  xlabel = names(a)[1]
+  ylabel = names(a)[2]
   names(a)=c('v1','v2')
   b = subset(a,v2>cutoff,select=cbind(v1,v2)) 
   sorted=sort(b$v2,decreasing=T,index.return=T)
