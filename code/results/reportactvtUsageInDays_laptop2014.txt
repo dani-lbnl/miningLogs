@@ -1,0 +1,6 @@
+activity ndays
+A 2
+B 7
+C 7
+D 5
+E 8
