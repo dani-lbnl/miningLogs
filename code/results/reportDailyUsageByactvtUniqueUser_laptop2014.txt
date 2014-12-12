@@ -1,0 +1,6 @@
+actv freq
+A 3
+B 12
+C 11
+D 10
+E 9

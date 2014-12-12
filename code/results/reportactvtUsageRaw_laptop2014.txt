@@ -1,0 +1,6 @@
+activity freq
+A 3
+B 14
+C 12
+D 12
+E 9
